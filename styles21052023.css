@@ -1,0 +1,13 @@
+.result-container {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.result-container p {
+    margin-bottom: 5px;
+}
+
+.highlight {
+    background-color: rgb(97, 204, 231);
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nationality Finder by Name</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles21052023.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Nationality Finder</h1>
+        <div class="input-group mt-4">
+            <input type="text" class="form-control" id="nameInput" placeholder="Enter name" onkeyup="highlightText()">
+            <button class="btn btn-primary" onclick="searchNationality()">Search</button>
+        </div>
+        <div id="resultContainer" class="result-container"></div>
+    </div>
+</body>
+</html>
